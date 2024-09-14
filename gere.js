@@ -52,7 +52,7 @@ const removerAluno = (turma, nome) => {
   console.log(removerAluno(turmaMaisFinal, 'João'))
 
   const ordenarPorMatricula = (turma) => {
-    return [...turma].sort((a, b) => a.matricula - b.matricula);
+    return [...turma].sort((x, y) => x.matricula - y.matricula);
   };
 
   console.log(ordenarPorMatricula(turmaMaisFinal))
