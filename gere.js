@@ -34,7 +34,7 @@ const listarAlunos = (turma) => {
 const turma = [];
 
 // Adiciona os alunos e atualiza a turma
-const turmaAtualizada = adicionarAluno(turma, 'João', 20, 1001, 'EC');
+const turmaAtualizada = adicionarAluno(turma, 'João', 22, 1001, 'EC');
 const turmaFinal = adicionarAluno(turmaAtualizada, 'Maria', 22, 1002, 'SI');
 const turmaMaisFinal = adicionarAluno(turmaFinal, 'Carlos', 23, 1003, 'EC');
 
